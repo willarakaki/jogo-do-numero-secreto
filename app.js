@@ -31,7 +31,7 @@ function verificarChute() {
         } else {
             exibirTextoNaTela('p', `O numero é menor que ${chute}`);
         }
-        tentativas ++
+        tentativas ++;
         limparCampo();
     }
 }
